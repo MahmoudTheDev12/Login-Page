@@ -1,0 +1,108 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(thumbnails/R.jpg)no-repeat;
+  background-position: center ;
+  background-size: cover;
+}
+.Main{
+  border-style: solid;
+  border-width: 1px;
+  align-items: middle;
+  width: 400px;
+  height: 450px;
+  color: white;
+  border-radius: 25px;
+  backdrop-filter: blur(10px)
+}
+.checkbox{
+  margin-top: 20px;
+  width: 160px;
+  font-size: 19px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  margin-right: 180px;
+
+}
+.Login-text{
+  margin-top: 60px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+.email{
+  background: transparent;
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255);
+  width: 300px;
+  align-items: center;  
+  height: 25px;
+  font-size: 1.2em;
+  border: 0.0001px;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom: 22px;
+  display:block;
+  border: none;
+  outline: none;
+  transition: all 0.15s;
+}
+.login{
+  margin: 30px 0;
+  width: 300px;
+  position: relative;
+  border-width: 2px;
+}
+.Main-contain{
+  align-items: center;
+}
+.hr{
+  height: 0.2px;
+  width: 300px;
+  margin-top: 0;
+  }
+.c,
+p{
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-right: 260px;
+  display: inline-block;
+}
+.p{
+  margin-top: 20px;
+}
+.c{
+  margin-left: 15px;
+}
+.button{
+  width: 350px;
+  height: 35px;
+  border-radius: 35px;
+  border: none;
+  font-family: Arial;
+  font-size: 23px;
+  cursor: pointer;
+  display: block;
+}
+.Pass-text{
+  color: black;
+  margin-left: 32px;
+  font-family: Arial;
+  font-size: 18px;
+}
+.Email-text{
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  font-size: 18px;
+}
+.jref{
+  color: black;
+  text-decoration: none;
+  padding-left: 137px;
+  padding-right: 137px;
+}
+.box:active{
+  background: url(thumbnails/269317115.jpg);
+}
